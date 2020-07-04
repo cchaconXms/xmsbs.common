@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMSBS.Common.NetFramework", "XMSBS.Common.NetFramework\XMSBS.Common.NetFramework.csproj", "{8FF3EE63-6A20-4DAD-93FF-DBF109249FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMSBS.Common.NetCore", "XMSBS.Common.NetCore\XMSBS.Common.NetCore.csproj", "{AAD9580D-81A3-476F-A06E-05F9EE78119B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetFramework", "NetFramework", "{E9BD4035-2A6A-416E-9302-4080B12DB16C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{EE2AF8BD-886A-4419-89C3-713F27AAABD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FF3EE63-6A20-4DAD-93FF-DBF109249FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF3EE63-6A20-4DAD-93FF-DBF109249FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF3EE63-6A20-4DAD-93FF-DBF109249FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF3EE63-6A20-4DAD-93FF-DBF109249FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD9580D-81A3-476F-A06E-05F9EE78119B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD9580D-81A3-476F-A06E-05F9EE78119B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD9580D-81A3-476F-A06E-05F9EE78119B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD9580D-81A3-476F-A06E-05F9EE78119B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAD9580D-81A3-476F-A06E-05F9EE78119B} = {EE2AF8BD-886A-4419-89C3-713F27AAABD9}
+		{8FF3EE63-6A20-4DAD-93FF-DBF109249FB5} = {E9BD4035-2A6A-416E-9302-4080B12DB16C}
+	EndGlobalSection
+EndGlobal
